@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/igiboi/dev-connector#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "axioss": "0.0.1-security",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.3",
     "express": "^4.17.1",

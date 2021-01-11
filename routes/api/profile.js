@@ -4,6 +4,7 @@ const config = require('config');
 const router = express.Router();
 const auth = require('../../middleware/auth');
 const {check, validationResult } = require('express-validator');
+const axios = require('axios');
 
 const Profile = require('../../models/profile');
 const User = require('../../models/User');
@@ -321,6 +322,7 @@ router.get('/github/:username', async (req, res) => {
     return res.status(404).json({ msg: 'No Github profile found' });
   }
 });
+
 
 
 module.exports = router;            
