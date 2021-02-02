@@ -19,6 +19,10 @@ body {
   line-height: 1.6;
   background-color: #fff;
   color: #333;
+  /* Removes white space bottom of background images */
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
 }
 
 a {
